@@ -1,0 +1,157 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 100px 42px;
+}
+
+.link-header {
+    margin-right: 23px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.img-logo {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+
+
+section {
+    display: inline-block;
+    margin-left: 84px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 122px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+
+}
+
+.link-section {
+    width: 112px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px){
+    header {
+        margin: 20px 0 50px 20px;
+    }
+
+    a {
+        display: none;
+    }
+    
+    .link-header {
+        margin-right: 15px;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.75px;
+        margin-right: 20px;
+    }
+    
+    .button-header {
+        width: 100px;
+        height: 41px;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+    }
+    
+    main {
+        margin-top: 100px;
+        margin-bottom: 75px;
+    }
+    
+    .img-logo {
+        width: 100%;
+        height: auto;
+        margin-left: 20px;
+        display: block;
+    }
+    
+    section {
+        display: block;
+        margin-left: 20px;
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 35px;
+        line-height: 50px;
+        letter-spacing: 0.403846px;
+        text-align: center;
+        padding-top: 70px;
+    }
+    
+    p {
+        font-size: 14px;
+        line-height: 25px;
+        letter-spacing: 0.39px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        text-align: center;
+        padding-right: 20px;
+    }
+    
+    .link-section {
+        width: 80px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+    }
+    
+}
